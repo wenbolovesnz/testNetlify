@@ -1,0 +1,63 @@
+.myloka-nav{
+    height:71px;
+    line-height:71px;
+    width: 100%;
+}
+
+.myloka-nav .logo{
+    height:51px;
+}
+
+.feature-1{
+    background-color: aqua;
+    height: 469px;
+    width: 100%;
+}
+
+.app .container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.app .row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.u15{
+    height: 199px;
+}
+
+.f-box{
+    margin-top: 110px;
+}
+
+.f-box-left{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.f-box-right{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.h-1 {
+    font-family: 'Lato-Light', 'Lato Light', 'Lato';
+    font-weight: 200;
+    font-size:32px;
+    text-align:left;
+}
+
+.f-box .p-normal{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.getBtn2{
+    width: 248px;
+    margin-top: 30px;
+}
+
+
+
