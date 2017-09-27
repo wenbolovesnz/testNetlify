@@ -1,3 +1,7 @@
+.app {
+    color: #323648;
+    font-family: 'Lato-Light', 'Lato Light', 'Lato';
+}
 .myloka-nav{
     height:71px;
     line-height:71px;
@@ -9,7 +13,11 @@
 }
 
 .feature-1{
-    background-color: aqua;
+    background:  #52B9C0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#52B9C0, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#52B9C0, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#52B9C0,#ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#52B9C0, #ffffff); /* Standard syntax */
     height: 469px;
     width: 100%;
 }
@@ -47,11 +55,12 @@
     font-weight: 200;
     font-size:32px;
     text-align:left;
+    color: #0D1836;
 }
 
 .f-box .p-normal{
     font-family: 'Lato-Light', 'Lato Light', 'Lato';
-    margin-left: 20px;
+    margin-left: 15px;
     font-size: 18px;
     line-height: 36px;
 }
@@ -87,7 +96,7 @@
 }
 
 .feature-3{
-    background-color: whitesmoke;
+    background-color: #F5F5F5;
     height: 469px;
 }
 
@@ -115,7 +124,7 @@
 }
 
 .footer{
-    background-color: black;
+    background-color: #0D1836;
 }
 
 .footer .logo{
@@ -131,4 +140,27 @@
     line-height: 36px;
 }
 
+.get-it-btn{
+    width: 208px;
+    background-color: #52B9C0;
+    color: #fff;
+    font-size: 20px;
+}
+.get-it-btn:hover{
+    background-color: #0D1836;
+    color: #fff;
+}
 
+.sub-it-btn{
+    margin-top: 10px;
+    width: 244px;
+    background-color: #0D1836;
+    color: #fff;
+    font-size: 20px;
+}
+.sub-it-btn:hover{
+    margin-top: 7px;
+    border: 3px solid #52B9C0;
+    background-color: #0D1836;
+    color: #fff;
+}
