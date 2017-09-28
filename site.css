@@ -12,7 +12,7 @@
     height:51px;
 }
 
-.feature-1{
+.feature-1,.feature-1-m{
     background:  #52B9C0; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#52B9C0, #ffffff); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#52B9C0, #ffffff); /* For Opera 11.1 to 12.0 */
@@ -20,6 +20,10 @@
     background: linear-gradient(#52B9C0, #ffffff); /* Standard syntax */
     height: 469px;
     width: 100%;
+}
+
+.feature-1-m{
+    height: 100%;
 }
 
 .app .container-fluid{
@@ -40,6 +44,15 @@
     margin-top: 110px;
 }
 
+.feature-1-m, .f-box{
+    text-align: center;
+}
+
+.feature-2-m, .f-box{
+    margin-top: 50px;
+    text-align: center;
+}
+
 .f-box-left{
     text-align: right;
     padding-right: 10px;
@@ -58,10 +71,35 @@
     color: #0D1836;
 }
 
+.feature-1-m .h-1 {
+    font-size:42px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature-2-m .h-1 {
+    font-size:42px;
+    text-align: center;
+}
+
 .f-box .p-normal{
     font-family: 'Lato-Light', 'Lato Light', 'Lato';
     margin-left: 15px;
     font-size: 18px;
+    line-height: 36px;
+}
+
+.feature-1-m .p-normal{
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.feature-2-m .p-normal{
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 28px;
     line-height: 36px;
 }
 
@@ -71,9 +109,21 @@
     margin-top: 30px;
 }
 
+.feature-1-m .sub-it-btn{
+    font-family: 'Lato-Light', 'Lato Light', 'Lato';
+    width: 288px;
+    margin-top: 30px;
+}
+
 .feature-2{
     background-color: #ffffff;
     height: 469px;
+}
+
+.feature-2-m{
+    background-color: #ffffff;
+    height: 100%;
+    margin-bottom: 50px;
 }
 
 .feature-2 .h-1 {
