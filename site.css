@@ -238,3 +238,27 @@
     background-color: #0D1836;
     color: #fff;
 }
+
+.model-logo-container{
+    text-align: center;
+}
+.model-logo-container .logo{
+    width: 30%;
+}
+
+.modal-header .model-close-x{
+    font-size: 35px;
+    color: #52B9C0;
+    opacity: 1;
+}
+
+.modal-header{
+    border-bottom: none;
+}
+
+.modal-body p {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+}
