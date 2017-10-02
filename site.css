@@ -246,6 +246,16 @@
     width: 30%;
 }
 
+.modal-body .input-group{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.modal-footer   {
+    border-top: none;
+    text-align: center;
+}
+
 .modal-header .model-close-x{
     font-size: 35px;
     color: #52B9C0;
