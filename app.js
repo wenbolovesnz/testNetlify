@@ -6,4 +6,12 @@ $(document).ready(function() {
 		$("#pre-submit").hide();
 		$("#after-submit").show();
 	})
+
+	$(".get-it-btn").click(function(){
+		ga('send', 'event', 'GetBtn', 'Clicked', 1);
+	})
+
+	$(".sub-it-btn").click(function(){
+		ga('send', 'event', 'SubBtn', 'Clicked', 1);
+	})
 });
