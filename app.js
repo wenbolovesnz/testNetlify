@@ -14,4 +14,9 @@ $(document).ready(function() {
 	$(".sub-it-btn").click(function(){
 		ga('send', 'event', 'SubBtn', 'Clicked', 1);
 	})
+	
+	window.addEventListener('message',function(event) {
+	  console.log('message received:  ' + event.data);
+	  console.log('message origin:  ' + event.origin);
+	},false);
 });
